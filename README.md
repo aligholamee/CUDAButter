@@ -17,4 +17,4 @@ A block is composed of threads which can communicate within their own block.
 #### Context Switching
 * **Registers** and **shared memory** are allocated for a block as long as that block is **active**.
 *   Once a block is active it will **stay active** until all threads in that block have completed.
-*   Context switching is very fast because registers and shared memory do not need to be saved and restored.
+*   Context switching is very fast because registers and shared memory **do not** need to be saved and restored.
